@@ -1,6 +1,7 @@
 import icon from '../assets/svg.svg';
 import arrow from '../assets/arrow.png';
 import Card from './card';
+import Browse from './Browse_Genre';
 
 function Main() {
   return (
@@ -9,10 +10,10 @@ function Main() {
         <h1 class="text-white font-extrabold text-5xl mt-10">Discover Amazing Movies</h1>
         <h2 class="text-[#a7a3a3] text-xl">Explore trending films, search your favorites, and build your personal watchlist</h2>
         <div class="flex flex-row">
-          <button class="w-55 px-5 h-15 text-lg rounded-xl bg-[#00D4FF] font-bold ml-5 mr-5">
+          <button class="w-55 px-5 h-15 text-lg rounded-xl bg-[#00D4FF] font-bold ml-5 mr-5 hover:bg-[#00BFFF] cursor-pointer">
             <i class="fa-solid fa-play bg-red mr-5"></i>Start Browsing
           </button>
-          <button class="w-50 px-5 py-5 h-15 items-center text-lg rounded-xl border-1 border-[#00D4FF] text-[#00D4FF] font-bold flex flex-row">
+          <button class="w-50 px-5 py-5 h-15 items-center text-lg rounded-xl border-1 border-[#00D4FF] text-[#00D4FF] font-bold flex flex-row cursor-pointer hover:bg-[#00D4FF]/20">
             <img class="mr-5 w-7" src={icon} alt="info" />
             Learn More
           </button>
@@ -34,7 +35,12 @@ function Main() {
         <Card />
         <Card />
       </section>
-      <section></section>
+      <div class="w-400 mx-auto mt-10 ">
+        <h3 class="font-bold text-3xl text-[#FFFFFF]">Browse by Genre</h3>
+      </div>
+      <section>
+        <Browse />
+      </section>
     </main>
   );
 }

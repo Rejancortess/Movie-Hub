@@ -14,3 +14,19 @@ main section {
   margin-left: auto;
   margin-right: auto;
 }
+
+.genre div i {
+  margin-bottom: 10px;
+}
+
+.card-box {
+  width: 200px;
+  height: 200px;
+  background: purple;
+  border-radius: 12px;
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card-box:hover {
+  transform: scale(1.1); /* zoom in to 110% */
+}
