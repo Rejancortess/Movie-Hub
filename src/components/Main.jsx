@@ -1,6 +1,6 @@
 import icon from '../assets/svg.svg';
 import arrow from '../assets/arrow.png';
-import Card from './card';
+import Card from './Card';
 import Browse from './Browse_Genre';
 
 function Main() {

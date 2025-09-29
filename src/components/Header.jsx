@@ -29,7 +29,7 @@ function Header() {
           </span>
           Watchlist
         </button>
-        <span class="bg-red-500 text-white rounded-full w-7 h-7 flex items-center justify-center absolute right-0 top-0 font-bold">0</span>
+        <span class="bg-red-500 text-white rounded-full w-7 h-7 flex items-center justify-center absolute right-0 top-0 font-bold">2</span>
       </div>
     </header>
   );
