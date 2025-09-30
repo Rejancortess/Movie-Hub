@@ -7,7 +7,7 @@ function Header() {
     <header class="w-full h-20 bg-[#1A1A1A] flex  justify-around font-['Inter'] items-center border-b-3 border-[#1F2937] pb-2 sticky top-0 z-50">
       <div class="w-1/3">
         <nav>
-          <ul class="flex flex-row text-[#8A8A8A] gap-7 text-sm items-center hover:cursor-pointer font-semibold">
+          <ul class="flex flex-row text-[#8A8A8A] gap-7 text-sm items-center hover:cursor-pointer font-semibold ">
             <li>
               <img class="w-40" src={logo} alt="" />
             </li>

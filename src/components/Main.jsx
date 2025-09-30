@@ -5,15 +5,15 @@ import Browse from './Browse_Genre';
 
 function Main() {
   return (
-    <main class="bg-[#0A0A0A] w-screen h-screen flex flex-col">
+    <main class="bg-[#0A0A0A] w-screen h-300 flex flex-col">
       <section class=" w-400 h-60 bg-gradient-to-r from-[#00D4FF]/20 via-[#2BA5F9]/20 to-[#9333EA]/20 mt-7 rounded-3xl flex flex-col items-center justify-center gap-5">
         <h1 class="text-white font-extrabold text-5xl mt-10">Discover Amazing Movies</h1>
         <h2 class="text-[#a7a3a3] text-xl">Explore trending films, search your favorites, and build your personal watchlist</h2>
         <div class="flex flex-row">
-          <button class="w-55 px-5 h-15 text-lg rounded-xl bg-[#00D4FF] font-bold ml-5 mr-5 hover:bg-[#00BFFF] cursor-pointer">
+          <button class="w-55 px-5 h-15 text-lg rounded-xl bg-[#00D4FF] font-bold ml-5 mr-5 hover:bg-[#00BFFF] cursor-pointer hover:scale-105 transition-transform duration-200">
             <i class="fa-solid fa-play bg-red mr-5"></i>Start Browsing
           </button>
-          <button class="w-50 px-5 py-5 h-15 items-center text-lg rounded-xl border-1 border-[#00D4FF] text-[#00D4FF] font-bold flex flex-row cursor-pointer hover:bg-[#00D4FF]/20">
+          <button class="w-50 px-5 py-5 h-15 items-center text-lg rounded-xl border-1 border-[#00D4FF] text-[#00D4FF] font-bold flex flex-row cursor-pointer hover:bg-[#00D4FF]/20 hover:scale-105 transition-transform duration-200">
             <img class="mr-5 w-7" src={icon} alt="info" />
             Learn More
           </button>

@@ -4,7 +4,7 @@ import ribbon from '../assets/watchlist_icon.png';
 
 function Card() {
   return (
-    <div className="card" class="w-60 relative">
+    <div className="hover:scale-105 transition-transform duration-200" class="w-60 relative ">
       <img class="w-full" src={img} alt="" />
       <div class="text-white w-full bg-[#1A1A1A] p-5 rounded-b-2xl">
         <h4 class="text-sm font-semibold">Blade Runner 2049</h4>
