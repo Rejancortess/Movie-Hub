@@ -24,9 +24,9 @@ main section {
   height: 200px;
   background: purple;
   border-radius: 12px;
-  transition: transform 0.3s ease; /* smooth animation */
+  transition: transform 0.3s ease;
 }
 
 .card-box:hover {
-  transform: scale(1.1); /* zoom in to 110% */
+  transform: scale(1.1);
 }
