@@ -2,7 +2,7 @@ import logo from '../assets/logo.svg';
 
 function Footer() {
   return (
-    <footer class="w-screen h-100 bg-[#1A1A1A]">
+    <footer className="w-screen h-100 bg-[#1A1A1A]">
       <section className="w-290 h-70 mx-auto text-white flex justify-between pt-20 ">
         <div className="w-1/6 flex flex-col gap-5 text-[#8A8A8A]">
           <img className="w-40" src={logo} alt="Logo" />
@@ -30,13 +30,13 @@ function Footer() {
           <p className="text-lg font-semibold">Follow Us</p>
           <ul className="flex flex-row gap-3 mt-2 text-2xl text-[#8A8A8A]">
             <li>
-              <i class="fa-brands fa-facebook"></i>
+              <i className="fa-brands fa-facebook"></i>
             </li>
             <li>
-              <i class="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter"></i>
             </li>
             <li>
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </li>
           </ul>
         </div>
